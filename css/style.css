@@ -687,12 +687,14 @@ p[data-category="misc"] {
  
  .kitchen_button {
   background-color: var(--color_dark);
-  border: 1px solid var(--background-color-light);
+  border: none;
   border-radius: 5px;
   font-size: 12px;
   font-weight: 700;
-  padding: 8px 16px;
+  padding: 10px 20px;
   cursor: pointer;
+  color: #ffffff;
+
 }
   
   .kitchen_button a {
