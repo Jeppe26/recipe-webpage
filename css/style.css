@@ -631,7 +631,7 @@ p[data-category="misc"] {
     width: var(--width-12col);
     border-bottom: 1px solid #ffffff;
     margin: 0 auto;
-    padding: 20;
+    padding-bottom: 10px;
 }
 
   .section2{
@@ -649,6 +649,11 @@ p[data-category="misc"] {
   margin-top:0px;
   grid-row: 1;
   color: var(--background-color-light);
+  padding-top: 20px;
+}
+
+.section1_left ol li {
+  padding: 5px;
 }
 
 .section1_right {
@@ -657,7 +662,10 @@ p[data-category="misc"] {
   margin-top:0px;
   grid-row: 1;
   color: var(--background-color-light);
+  padding-top: 20px;
+  line-height: 1.5;
 }
+
 
 .section2 h2 {
   color: white; 
