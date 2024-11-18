@@ -721,8 +721,11 @@ p[data-category="misc"] {
  }
 
  .content_text_kitchen{
-  width: 70%;
   height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
  }
 
  .kitchen_p{
@@ -732,13 +735,15 @@ p[data-category="misc"] {
  }
 
  .kitchen_h1{
-  font-size: 30px;
+  font-size: 40px;
   color: #BF5B23;
+  justify-content: center;
  }
 
   .kitchen_p1 {
   margin: 10px 0 0 0;
   justify-content: center;
+  font-size: 30px;
   }
 
  
@@ -751,7 +756,6 @@ p[data-category="misc"] {
   padding: 10px 20px;
   cursor: pointer;
   color: #ffffff;
-
 }
   
   .kitchen_button a {
@@ -759,22 +763,69 @@ p[data-category="misc"] {
   text-decoration: none;
 }
 
-footer{
+.footer{
   background-color: rgb(189, 94, 0);
   color: #ffffff;
   padding: 20px;
   text-align: center;
+  display: flex;
+  width: 100%;
 }
 
 .footer-container{
   display: flex;
   justify-content: space-between;
 }
+.footer-left ul li  {
+  list-style-type: none;
+}
+
+.footer-right ul li  {
+  list-style-type: none;
+}
 
 .footer-left{
-  display: center;
+  width: 50%;
+
 }
 
 .footer-right{
-  display: center;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.about-us-details{
+  text-align: center;
+}
+
+.vores-ansatte{
+  padding: 10px;
+}
+
+.team{
+  background-color: rgb(63, 63, 63);
+  padding: 50px;
+}
+
+@media (width < 768px) {
+  /* Styles for skærme op til 768px bredde */
+
+  :root {
+    --width-12col:100%
+  }
+  body {
+      background-color: red;
+  }
+
+  .todays_recipes_headline {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
 }
