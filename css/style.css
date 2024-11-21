@@ -823,19 +823,16 @@ p[data-category="misc"] {
   }
 
   .todays_recipes_content {
-    padding: 5px;
+    padding: 10px;
     justify-content: flex-start;
   }
 
   .categories_content_box {
     justify-content: flex-start;
   }
-  .categories_text_recipes{
 
-  }
  .content_text_kitchen{
   height: 60%;
-  display: ;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
@@ -848,7 +845,7 @@ p[data-category="misc"] {
  }
 
  .kitchen_h1{
-  font-size: 40px;
+  font-size: 30px;
   color: #BF5B23;
   justify-content: flex-start;
  }
@@ -856,7 +853,7 @@ p[data-category="misc"] {
   .kitchen_p1 {
   margin: 10px 0 0 0;
   justify-content: flex-start;
-  font-size: 30px;
+  font-size: 20px;
   }
 
  
@@ -875,6 +872,10 @@ p[data-category="misc"] {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+  li::marker {
+    justify-content: flex-start;
+  }
 
 
    
