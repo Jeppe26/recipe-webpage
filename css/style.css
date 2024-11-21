@@ -811,18 +811,73 @@ p[data-category="misc"] {
   /* Styles for skærme op til 768px bredde */
 
   :root {
-    --width-12col:100%
+    --width-12col:100%;
   }
   body {
       background-color: red;
   }
 
   .todays_recipes_headline {
-    width: 100%;
+    font-size: var(--width-12col);
+    --width-12col: 100%;
   }
 
+  .todays_recipes_content {
+    padding: 5px;
+    justify-content: flex-start;
+  }
+
+  .categories_content_box {
+    justify-content: flex-start;
+  }
+  .categories_text_recipes{
+
+  }
+ .content_text_kitchen{
+  height: 60%;
+  display: ;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+ }
+
+ .kitchen_p{
+  font-size: 15px;
+  padding: 5%;
+  border-left: 1px solid;
+ }
+
+ .kitchen_h1{
+  font-size: 40px;
+  color: #BF5B23;
+  justify-content: flex-start;
+ }
+
+  .kitchen_p1 {
+  margin: 10px 0 0 0;
+  justify-content: flex-start;
+  font-size: 30px;
+  }
+
+ 
+ .kitchen_button {
+  background-color: var(--color_dark);
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+  
+  .kitchen_button a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 
+   
 
 
 
