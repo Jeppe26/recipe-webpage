@@ -818,17 +818,19 @@ p[data-category="misc"] {
   }
 
   .todays_recipes_headline {
-    font-size: var(--width-12col);
+    font-size: var(--width-full);
     --width-12col: 100%;
   }
 
   .todays_recipes_content {
     padding: 10px;
     justify-content: flex-start;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .categories_content_box {
     justify-content: flex-start;
+  
   }
 
  .content_text_kitchen{
