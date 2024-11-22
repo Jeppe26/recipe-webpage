@@ -875,11 +875,9 @@ p[data-category="misc"] {
   text-decoration: none;
 }
 
-  li::marker {
-    justify-content: flex-start;
+  .categories_content_box{
+    width: 100%;
   }
-
-
    
 
 
