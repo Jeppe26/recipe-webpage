@@ -371,7 +371,7 @@ p[data-category="misc"] {
 }
 
 .categories_content {
-  background-color: var(--background-color-light);
+  /* background-color: var(--background-color-light); */
   
   width: var(--width-12col);
   margin: 40px auto 0px auto;
@@ -379,6 +379,9 @@ p[data-category="misc"] {
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
+}
+.cat-snyd{
+  background-color: var(--background-color-light);
 }
 
 
@@ -813,9 +816,7 @@ p[data-category="misc"] {
   :root {
     --width-12col:100%;
   }
-  body {
-      background-color: red;
-  }
+
 
   .todays_recipes_headline {
     font-size: var(--width-full);
@@ -877,6 +878,14 @@ p[data-category="misc"] {
 
   .categories_content_box{
     width: 100%;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+
+  }
+
+  .image-content {
+    display: none;
   }
    
 
